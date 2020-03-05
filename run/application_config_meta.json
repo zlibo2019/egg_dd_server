@@ -1,0 +1,366 @@
+{
+  "keys": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+  "middleware": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+  "security": {
+    "csrf": {
+      "enable": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "useSession": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "sequelize": {
+    "dialect": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "database": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "timezone": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "pool": {
+      "max": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "min": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "idle": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+    },
+    "host": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "port": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "username": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "password": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "logging": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+  },
+  "multipart": {
+    "mode": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "fileExtensions": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "autoFields": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Volumes/数据/work/egg_dd_server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "bodyParser": {
+    "jsonLimit": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "formLimit": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "strict": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "depth": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "request": {
+      "timeout": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+    },
+    "httpAgent": {
+      "keepAlive": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "freeSocketTimeout": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "maxSockets": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "maxFreeSockets": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "freeSocketKeepAliveTimeout": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "freeSocketTimeout": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "maxSockets": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "maxFreeSockets": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "freeSocketKeepAliveTimeout": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "enableDNSCache": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "host": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "password": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "db": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+    },
+    "default": "/Volumes/数据/work/egg_dd_server/node_modules/egg-redis/config/config.default.js",
+    "app": "/Volumes/数据/work/egg_dd_server/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Volumes/数据/work/egg_dd_server/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Volumes/数据/work/egg_dd_server/node_modules/egg-redis/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+      "path": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "hostname": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "allowMethods": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+  },
+  "info": {
+    "connectIp": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+  },
+  "key": {
+    "oapiHost": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "appId": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "appKey": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+    "appSecret": "/Volumes/数据/work/egg_dd_server/config/config.default.ts"
+  },
+  "sourceUrl": "/Volumes/数据/work/egg_dd_server/config/config.default.ts",
+  "session": {
+    "maxAge": "/Volumes/数据/work/egg_dd_server/node_modules/egg-session/config/config.default.js",
+    "key": "/Volumes/数据/work/egg_dd_server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Volumes/数据/work/egg_dd_server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Volumes/数据/work/egg_dd_server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Volumes/数据/work/egg_dd_server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Volumes/数据/work/egg_dd_server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Volumes/数据/work/egg_dd_server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Volumes/数据/work/egg_dd_server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Volumes/数据/work/egg_dd_server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Volumes/数据/work/egg_dd_server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Volumes/数据/work/egg_dd_server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Volumes/数据/work/egg_dd_server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Volumes/数据/work/egg_dd_server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Volumes/数据/work/egg_dd_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Volumes/数据/work/egg_dd_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Volumes/数据/work/egg_dd_server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Volumes/数据/work/egg_dd_server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Volumes/数据/work/egg_dd_server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Volumes/数据/work/egg_dd_server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Volumes/数据/work/egg_dd_server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Volumes/数据/work/egg_dd_server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Volumes/数据/work/egg_dd_server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Volumes/数据/work/egg_dd_server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Volumes/数据/work/egg_dd_server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Volumes/数据/work/egg_dd_server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Volumes/数据/work/egg_dd_server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Volumes/数据/work/egg_dd_server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Volumes/数据/work/egg_dd_server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Volumes/数据/work/egg_dd_server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Volumes/数据/work/egg_dd_server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Volumes/数据/work/egg_dd_server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Volumes/数据/work/egg_dd_server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Volumes/数据/work/egg_dd_server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Volumes/数据/work/egg_dd_server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Volumes/数据/work/egg_dd_server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Volumes/数据/work/egg_dd_server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Volumes/数据/work/egg_dd_server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Volumes/数据/work/egg_dd_server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Volumes/数据/work/egg_dd_server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "name": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "proxy": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "version": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "description": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "private": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "stop": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "dev": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "debug": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "test-local": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "test": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "cov": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "tsc": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "ci": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "autod": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "lint": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "clean": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "alipay-sdk": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "amqp": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "canvas": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-mq": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-session": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-swagger-doc": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-xlsx": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "ejsexcel": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "exceljs": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "fs": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "html-pdf": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "html-to-image": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "install": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "jsdom": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "npm": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "ocx": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "pg": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "pg-hstore": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "qiniu": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "rabbitmq": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "sequelize-auto": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "tedious": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/jsdom": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "@types/node": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "autod": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-emqtt": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "moment": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "node-xlsx": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "tslib": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "tslint": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "typescript": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+      "url": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "author": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "license": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "HOME": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "rundir": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "notFound": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "env": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "level": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "buffer": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+    "logging": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "responseTimeout": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Volumes/数据/work/egg_dd_server/node_modules/egg/config/config.default.js"
+}
